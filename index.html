@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Chart JS Stacked Bar example</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1>MAGNA</h1>
+<div class="wrapper">
+<canvas id="myChart4"></canvas><br><br>
+
+</div><br>
+<div id="sel">
+  <button class="child" onclick="myfunction(states,data1,data4,'total_features','')">state vs feature</button>
+  <button class="child" onclick="myfunction(features,data2,data3,'test_pass','test_fail')">feature vs tests</button>
+  <button onclick="pieChart()" class="child">pie</button>
+  <button class="child" onclick="clearchart()">clear</button>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js'></script>
+  <script  src="./myscript.js"></script><script src="./data.js"></script>
+
+</body>
+</html>
