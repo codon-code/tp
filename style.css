@@ -5,8 +5,8 @@ body, html{
   }
   
   .wrapper{
-    width:80rem;
-    height: 80rem;
+    width:45rem;
+    height: 70vh;
     display:flex;
     justify-content: center;
     align-items: center;
